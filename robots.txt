@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://anydaycashusa.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Allow: /wp-content/uploads/
+
+# Allow important pages
+Allow: /privacy-policy/
+Allow: /wp-content/uploads/
